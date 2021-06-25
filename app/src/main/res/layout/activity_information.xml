@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs246company.gospellibrarylite.InformationActivity">
+<ImageView
+    android:layout_width="350px"
+    android:layout_height="350px"
+    android:src="@drawable/gabriel"
+    android:layout_marginTop="50px"
+    android:layout_marginLeft="20px"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/marvin"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="20px"
+        />
+
+   <TextView
+       android:id="@+id/txtgabriel"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Gabriel"
+       android:layout_below="@+id/pic"
+       android:textSize="20dp"
+       android:layout_marginLeft="150px"/>
+    <TextView
+        android:id="@+id/txtMarvin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marvin"
+        android:layout_below="@+id/pic"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/txtgabriel"
+        android:layout_marginLeft="220px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:layout_below="@+id/pic"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="@color/baseColor"
+        android:text="We are a group of BYUI students with experience in developing Software for Android Apps. \n \n
+We are currently taking CS 246 course, and we create this Android App
+to show our skills learned during this semester. \n \n
+Team Members:\n
+Gabriel Andres Sanahuano \n
+Age: 24 Years \n
+Country Home: Colombia \n
+Mayor: Software Engineering\n
+Marvin Haziel Zavala\n
+Age: 17 years\n
+Contry Home: Nicaragua\n
+Mayor: Software Engineering\n
+We hope you enjoy our App! \n
+Please, let us know your feedback sending a message to the following E-mail:\n"
+
+        android:layout_marginTop="50px"/>
+
+</RelativeLayout>
+</ScrollView>

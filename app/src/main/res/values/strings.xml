@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">"GospelLibraryLite "</string>
+    <string name="title_activity_scripture">ScriptureActivity</string>
+    <string name="title_activity_add_notes">addNotes</string>
+</resources>
